@@ -5,6 +5,10 @@ If you would like view the prototype, please pull it and type ''flutter pub get'
 ## Inspiration
 With many latest news about patient safety, we came to a realization where most cases which patient have a wrong diagnosis or given the wrong drug was through a miscommunication or lack of communication. 
 
+What if the health provider can learn about a patient's drug usage and medical record with just one second of clicking in to the page? It'll definitely prevent death caused by miscommunication and giving the wrong doses and drug that will cause allergy reaction to patient.
+
+What if there's an application that can support health provider to educate the patients? It'll aim for accuracy and limit human error.
+
 ## What it does
 VitalLink store all user's medical record to be transparency to the doctor in order to limit the error that'll be caused by communication between patient and doctor. In addition to that, we built on top to create a page which patient can learn about their food restriction and there's an AI model which they can question about receipt or what they could eat.
 
