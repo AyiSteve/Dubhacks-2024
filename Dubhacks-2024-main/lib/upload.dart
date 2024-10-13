@@ -1,13 +1,13 @@
 
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart'; // Import Firebase Core
+import 'package:firebase_core/firebase_core.dart'; 
 import 'package:file_picker/file_picker.dart';
 import 'dart:io';
-import 'package:firebase_storage/firebase_storage.dart'; // Import Firebase Storage
+import 'package:firebase_storage/firebase_storage.dart'; 
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();  // Initialize Firebase
+  await Firebase.initializeApp();  
   runApp(MyApp());
 }
 
@@ -36,7 +36,7 @@ class _UploadPageState extends State<UploadPage> {
     if (result != null) {
       setState(() {
         _selectedFile = File(result.files.single.path!);
-        _uploadStatus = null; // Reset the status when a new file is selected
+        _uploadStatus = null; 
       });
     }
   }
