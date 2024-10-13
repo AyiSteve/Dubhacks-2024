@@ -1,3 +1,7 @@
+This Project is for Dubhack.
+
+If you would like view the prototype, please pull it and type ''flutter pub get'' in terminal!
+
 ## Inspiration
 With many latest news about patient safety, we came to a realization where most cases which patient have a wrong diagnosis or given the wrong drug was through a miscommunication or lack of communication. 
 
