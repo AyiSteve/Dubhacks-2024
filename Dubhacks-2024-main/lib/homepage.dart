@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 10.0),  // Slightly reduced padding
         color: Colors.grey[300],
         child: Center(
-          child: FittedBox(  // This will shrink the text if it's too large to fit in the container
+          child: FittedBox(  
             child: Text(
               label,
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
@@ -107,15 +107,15 @@ class HomePage extends StatelessWidget {
   Widget _buildDateFrame() {
     return Expanded(
       child: Container(
-        height: 85,  // Further reduced height to move content upwards
-        margin: const EdgeInsets.all(2.0),  // Reduced margin for less space around the frame
+        height: 85,  
+        margin: const EdgeInsets.all(2.0),  
         decoration: BoxDecoration(
           color: Colors.grey[300],
           borderRadius: BorderRadius.circular(8.0),
         ),
         child: Center(
           child: Text(
-            'Placeholder',  // Replace this with dynamic content as needed
+            'Placeholder', 
             style: TextStyle(fontSize: 14),
           ),
         ),
@@ -125,7 +125,7 @@ class HomePage extends StatelessWidget {
 
   Widget _buildGrid() {
     return Padding(
-      padding: const EdgeInsets.all(8.0),  // Reduced padding around the grid
+      padding: const EdgeInsets.all(8.0),  
       child: GridView.count(
         crossAxisCount: 2,  // Display two cards per row
         crossAxisSpacing: 16.0,
